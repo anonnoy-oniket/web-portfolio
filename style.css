@@ -1,11 +1,16 @@
 body{
     font-family: 'Lobster Two', cursive;
+    margin: 0px;
 }
-h1{
+h1 {
     font-size: 50px;
     font-family: 'Lobster', cursive;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -15,5 +20,56 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
+    width: 80%;
+    margin-left: 150px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg , red , blue);
+    padding: 10px 25px;
+    color:whitesmoke;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#image2{
+    margin-left: 25px;
     width: 100%;
+}
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg , blue , red);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg , blue , cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
 }
